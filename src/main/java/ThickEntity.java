@@ -841,27 +841,6 @@ public class ThickEntity {
 	@Column(length=70)
 	private String r99;
 
-	@Basic
-	@Lob
-	private String lob4;
-
-	@Basic
-	@Column(length=1300)
-	private String s44444;
-
-
-	@Basic
-	@Lob
-	private String lob1;
-
-
-	@Basic
-	@Lob
-	private String lob2;
-
-	@Basic
-	@Lob
-	private String lob3;
 
 	public Long getId() {
 		return id;
@@ -3335,43 +3314,4 @@ public class ThickEntity {
 		this.r99 = r99;
 	}
 
-	public String getLob4() {
-		return lob4;
-	}
-
-	public void setLob4(String lob4) {
-		this.lob4 = lob4;
-	}
-
-	public String getS44444() {
-		return s44444;
-	}
-
-	public void setS44444(String s44444) {
-		this.s44444 = s44444;
-	}
-
-	public String getLob1() {
-		return lob1;
-	}
-
-	public void setLob1(String lob1) {
-		this.lob1 = lob1;
-	}
-
-	public String getLob2() {
-		return lob2;
-	}
-
-	public void setLob2(String lob2) {
-		this.lob2 = lob2;
-	}
-
-	public String getLob3() {
-		return lob3;
-	}
-
-	public void setLob3(String lob3) {
-		this.lob3 = lob3;
-	}
 }
